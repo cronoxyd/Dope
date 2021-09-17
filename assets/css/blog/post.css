@@ -1,5 +1,5 @@
 .post {
-    margin-bottom: 75px;
+    margin-bottom: 2rem;
 }
 
 .post-wrapper {
@@ -55,6 +55,7 @@
     display: flex;
     align-items: center;
     margin: 20px 0 0 2px;
+    justify-content: flex-end;
 }
 
 .read-more {
