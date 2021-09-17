@@ -34,14 +34,11 @@
 
 .canvas-close {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 30px;
-    height: 30px;
+    top: 35px;
+    right: 25px;
+    padding: 0.25rem;
     color: inherit;
-    font-size: 23px;
-    line-height: 30px;
-    text-align: center;
+    font-size: 24px;
     cursor: pointer;
     transition: color 0.4s var(--animation-base);
 }
