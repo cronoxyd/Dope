@@ -155,10 +155,10 @@ hr::before,
 hr::after {
     content: "";
     position: absolute;
-    width: 5px;
-    height: 5px;
-    background-color: var(--dark-gray-color);
-    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    border-radius: inherit;
 }
 
 hr::before {
