@@ -29,6 +29,7 @@
     top: 1px;
     padding-left: 5px;
     color: var(--yellow-color);
+    font-size: 10pt !important;
 }
 
 .post-title {
