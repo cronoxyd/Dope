@@ -1,11 +1,11 @@
 .burger {
     position: relative;
     flex-shrink: 0;
-    width: 34px;
-    height: 34px;
+    padding: 0.25rem;
     border: 2px solid var(--mid-gray-color);
     background-color: var(--dark-light);
     cursor: pointer;
+    transition: color 0.4s var(--animation-base);
 }
 
 .burger:hover {
