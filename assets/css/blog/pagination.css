@@ -5,12 +5,12 @@
     align-items: center;
     margin: 60px auto 30px;
     width: 120px;
-    height: 120px;
     outline: none;
-    border: 2px solid var(--primary-color);
     line-height: 1;
     background-color: inherit;
+    border: 0;
     cursor: pointer;
+    padding: 0.75rem;
 }
 
 .load-more {
