@@ -75,7 +75,7 @@
 
 .u-placeholder {
     position: relative;
-    background-color: var(--light-gray-color);
+    background-color: var(--dark-light);
 }
 
 .u-placeholder.same-height {
@@ -156,7 +156,7 @@
 }
 
 .u-text-format strong {
-    color: var(--dark-gray-color);
+    color: var(--primary-text-color);
 }
 
 .u-text-format a {

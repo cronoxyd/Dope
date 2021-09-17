@@ -42,7 +42,7 @@
 }
 
 .footer-social-item:hover {
-    color: var(--dark-gray-color);
+    color: var(--primary-color);
 }
 
 @media (max-width: 767px) {

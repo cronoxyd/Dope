@@ -13,7 +13,7 @@
     height: 40px;
     font-size: 15px;
     font-weight: 700;
-    background-color: var(--light-gray-color);
+    background-color: var(--dark-light);
     transition: 0.3s var(--animation-base);
     transition-property: background-color, color;
 }

@@ -4,7 +4,7 @@
     width: 34px;
     height: 34px;
     border: 2px solid var(--mid-gray-color);
-    background-color: var(--white-color);
+    background-color: var(--dark-light);
     cursor: pointer;
 }
 
@@ -15,7 +15,7 @@
     left: 9px;
     width: 12px;
     height: 2px;
-    background-color: var(--dark-gray-color);
+    background-color: var(--primary-text-color);
 }
 
 .burger::before {
