@@ -100,36 +100,34 @@ function author() {
     });
 }
 
+function offCanvasOpen() {
+    html.toggleClass('canvas-opened');
+    html.addClass('overflow-hidden');
+    html.addClass('canvas-visible');
+    dimmer('open', 'medium');
+}
+
+function offCanvasClose() {
+    if (html.hasClass('canvas-opened')) {
+        html.removeClass('canvas-opened');
+        html.removeClass('overflow-hidden');
+        dimmer('close', 'medium');
+    }
+}
+
 function offCanvas() {
     'use strict';
     var burger = jQuery('.burger');
     var canvasClose = jQuery('.canvas-close');
 
-    burger.on('click', function () {
-        html.toggleClass('canvas-opened');
-        html.addClass('canvas-visible');
-        dimmer('open', 'medium');
-    });
+    burger.on('click', function () { offCanvasOpen(); });
 
-    canvasClose.on('click', function () {
-        if (html.hasClass('canvas-opened')) {
-            html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
-        }
-    });
+    canvasClose.on('click', function () { offCanvasClose(); });
 
-    jQuery('.dimmer').on('click', function () {
-        if (html.hasClass('canvas-opened')) {
-            html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
-        }
-    });
+    jQuery('.dimmer').on('click', function () { offCanvasClose(); });
 
     jQuery(document).keyup(function (e) {
-        if (e.keyCode == 27 && html.hasClass('canvas-opened')) {
-            html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
-        }
+        if (e.keyCode == 27) { offCanvasClose(); }
     });
 }
 

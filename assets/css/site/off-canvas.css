@@ -39,3 +39,7 @@ html:not(.canvas-visible) .off-canvas {
     visibility: visible;
     transform: translateX(0) !important;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}
