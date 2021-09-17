@@ -11,6 +11,7 @@
     transition: transform 0.4s var(--animation-base);
     transform: translateX(350px);
     -webkit-overflow-scrolling: touch;
+    border-left: 0.25rem solid var(--primary-color);
 }
 
 .canvas-logo {
