@@ -32,12 +32,13 @@
     content: counter(recent);
     margin-top: -10px;
     margin-right: 20px;
-    color: var(--primary-color);
+    color: var(--secondary-text-color);
     font-size: 60px;
     line-height: 1;
     font-weight: 700;
     counter-increment: recent;
     opacity: 0.75;
+    width: 2rem;
 }
 
 .widget-recent .recent + .recent {
