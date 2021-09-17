@@ -162,7 +162,11 @@
 .u-text-format a {
     color: var(--primary-color);
     font-weight: 700;
-    text-decoration: underline;
+}
+
+.u-text-format a:hover {
+    text-decoration: underline var(--primary-color);
+    text-decoration-thickness: var(--accent-line-width);
 }
 
 .u-text-format > .kg-card,

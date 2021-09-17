@@ -8,22 +8,8 @@
     cursor: pointer;
 }
 
-.burger::before,
-.burger::after {
-    content: "";
-    position: absolute;
-    left: 9px;
-    width: 12px;
-    height: 2px;
-    background-color: var(--primary-text-color);
-}
-
-.burger::before {
-    top: 11px;
-}
-
-.burger::after {
-    bottom: 11px;
+.burger:hover {
+    color: var(--primary-color);
 }
 
 .home-template .burger {

@@ -24,6 +24,8 @@
     --scrollbar-thumb: #4F4F4F;
 
     --intro-animation-duration: 3500ms;
+
+    --accent-line-width: 2px;
 }
 
 html {

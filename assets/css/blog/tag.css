@@ -59,8 +59,8 @@
     content: "";
     margin-right: 0;
     width: 0;
-    height: 3px;
-    background: var(--white-color);
+    height: var(--accent-line-width);
+    background: var(--primary-color);
     transition: 0.4s var(--animation-base);
     transition-property: margin-right, width;
 }

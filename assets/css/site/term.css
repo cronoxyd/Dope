@@ -17,7 +17,7 @@
     content: "";
     margin-right: 10px;
     width: 30px;
-    height: 3px;
+    height: var(--accent-line-width);
     background-color: var(--primary-color);
 }
 

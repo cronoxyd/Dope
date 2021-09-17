@@ -15,3 +15,8 @@
 .slicknav_menu .menu-item-link {
   outline: none;
 }
+
+.menu-item-link:hover {
+  text-decoration: underline var(--primary-color);
+  text-decoration-thickness: var(--accent-line-width);
+}
