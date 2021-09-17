@@ -37,7 +37,7 @@
     line-height: 1;
     font-weight: 700;
     counter-increment: recent;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .widget-recent .recent + .recent {
