@@ -19,6 +19,19 @@
     width: var(--accent-charm-width);
     height: var(--accent-line-width);
     background-color: var(--primary-color);
+
+    animation: termIntroAnimation;
+    animation-duration: var(--accent-charm-animation-duration);
+    animation-timing-function: var(--animation-base);
+}
+
+@keyframes termIntroAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--accent-charm-width);
+    }
 }
 
 @media (max-width: 767px) {
