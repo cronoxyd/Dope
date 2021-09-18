@@ -34,8 +34,8 @@
 
 .canvas-close {
     position: absolute;
-    top: 35px;
-    right: 25px;
+    top: 2.25rem;
+    right: 2rem;
     padding: 0.25rem;
     color: inherit;
     font-size: 24px;
