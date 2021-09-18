@@ -5,10 +5,12 @@
     transition: transform 0.2s var(--animation-base);
 }
 
-.button-arrow-right:hover .button-arrow-icon {
+.button-arrow-right:hover .button-arrow-icon, .button-arrow-right:focus .button-arrow-icon {
     transform: translateX(5px);
+    opacity: 1;
 }
 
-.button-arrow-left:hover .button-arrow-icon {
+.button-arrow-left:hover .button-arrow-icon, .button-arrow-right:focus .button-arrow-icon {
     transform: translateX(-5px);
+    opacity: 1;
 }

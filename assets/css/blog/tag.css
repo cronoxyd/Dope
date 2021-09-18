@@ -17,11 +17,11 @@
     transition: 0.4s opacity var(--animation-base);
 }
 
-.tag:hover::before {
+.tag:hover::before, .tag:focus::before {
     opacity: 1;
 }
 
-.tag:hover .tag-name::before {
+.tag:hover .tag-name::before, .tag:focus .tag-name::before {
     margin-right: 10px;
     width: 30px;
 }

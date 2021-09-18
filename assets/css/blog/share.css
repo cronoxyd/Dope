@@ -22,7 +22,7 @@
     margin-left: 15px;
 }
 
-.share-item:hover {
+.share-item:hover, .share-item:focus {
     color: var(--white-color);
     background-color: var(--primary-color);
 }
