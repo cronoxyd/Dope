@@ -40,9 +40,9 @@
 .u-underline::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     width: 0;
-    height: 1px;
+    height: var(--accent-line-width);
     transition: width 0.5s var(--animation-base);
 }
 
