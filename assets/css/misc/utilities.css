@@ -55,7 +55,7 @@
 
 .u-underline::after {
     right: 0;
-    background-color: var(--dark-gray-color);
+    background-color: var(--primary-color);
 }
 
 .u-underline:hover {
@@ -65,7 +65,7 @@
 .u-underline:hover::before {
     visibility: visible;
     width: 100%;
-    background-color: var(--dark-gray-color);
+    background-color: var(--primary-color);
 }
 
 .u-underline:hover::after {
