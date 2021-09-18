@@ -19,7 +19,11 @@
         <div class="site-content">
             {{{body}}}
         </div>
-        {{> footer}}
+        {{#is "home"}}
+            {{!-- No footer for the homepage --}}
+        {{else}}
+            {{> footer}}
+        {{/is}}
     </div>
 
     <div class="dimmer"></div>
