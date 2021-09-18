@@ -16,7 +16,7 @@
 .term-name::before {
     content: "";
     margin-right: 10px;
-    width: 30px;
+    width: var(--accent-charm-width);
     height: var(--accent-line-width);
     background-color: var(--primary-color);
 }

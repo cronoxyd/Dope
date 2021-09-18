@@ -2,7 +2,8 @@
     display: inline-block;
     line-height: 1;
     vertical-align: middle;
-    transition: transform 0.2s var(--animation-base);
+    transition: transform var(--accent-charm-animation-duration) var(--animation-base), opacity var(--accent-charm-animation-duration) var(--animation-base);
+    opacity: 0;
 }
 
 .button-arrow-right:hover .button-arrow-icon, .button-arrow-right:focus .button-arrow-icon {

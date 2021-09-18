@@ -23,7 +23,7 @@
 
 .tag:hover .tag-name::before, .tag:focus .tag-name::before {
     margin-right: 10px;
-    width: 30px;
+    width: var(--accent-charm-width);
 }
 
 .tag-content {
@@ -61,7 +61,7 @@
     width: 0;
     height: var(--accent-line-width);
     background: var(--primary-color);
-    transition: 0.4s var(--animation-base);
+    transition: var(--accent-charm-animation-duration) var(--animation-base);
     transition-property: margin-right, width;
 }
 
