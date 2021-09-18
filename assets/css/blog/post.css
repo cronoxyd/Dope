@@ -37,11 +37,6 @@
     font-size: 18px;
 }
 
-.post-title-link:hover {
-    text-decoration: underline var(--primary-color);
-    text-decoration-thickness: var(--accent-line-width);
-}
-
 .post-tags {
     margin-bottom: 10px;
 }
