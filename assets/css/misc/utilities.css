@@ -34,43 +34,18 @@
 .u-underline {
     position: relative;
     line-height: 1;
+
+    background:
+    linear-gradient(to right, transparent, transparent),
+    linear-gradient(to right, var(--primary-color), var(--primary-color));
+    background-size: 100% var(--accent-line-width), 0 var(--accent-line-width);
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size var(--accent-charm-animation-duration) var(--animation-base);
 }
 
-.u-underline::before,
-.u-underline::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: var(--accent-line-width);
-    transition: width 0.5s var(--animation-base);
-}
-
-.u-underline::before {
-    visibility: hidden;
-    left: 0;
-    transition: 0.5s var(--animation-base);
-    transition-property: background-color, width;
-}
-
-.u-underline::after {
-    right: 0;
-    background-color: var(--primary-color);
-}
-
-.u-underline:hover {
-    opacity: 1;
-}
-
-.u-underline:hover::before {
-    visibility: visible;
-    width: 100%;
-    background-color: var(--primary-color);
-}
-
-.u-underline:hover::after {
-    width: 100%;
-    background-color: transparent !important;
+.u-underline:hover, .u-underline:focus {
+    background-size: 0 var(--accent-line-width), 100% var(--accent-line-width);
 }
 
 .u-placeholder {
@@ -164,7 +139,7 @@
     font-weight: 700;
 }
 
-.u-text-format a:hover {
+.u-text-format a:hover, .u-text-format a:focus {
     text-decoration: underline var(--primary-color);
     text-decoration-thickness: var(--accent-line-width);
 }
