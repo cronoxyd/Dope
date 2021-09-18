@@ -39,6 +39,11 @@
     counter-increment: recent;
     opacity: 0.75;
     width: 2rem;
+    transition: color var(--accent-charm-animation-duration);
+}
+
+.widget-recent .recent:hover::before, .widget-recent .recent:focus::before {
+    color: var(--primary-color);
 }
 
 .widget-recent .recent + .recent {
