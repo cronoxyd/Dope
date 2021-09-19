@@ -30,6 +30,8 @@
     --accent-charm-animation-duration: 400ms;
 
     --highlight: rgba(255, 255, 0, 0.25);
+
+    --off-canvas-width: 350px;
 }
 
 html {

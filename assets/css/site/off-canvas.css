@@ -5,18 +5,17 @@
     z-index: 90;
     overflow-y: scroll;
     padding: 7rem 2rem 2rem 2rem;
-    width: 350px;
+    width: var(--off-canvas-width);
     height: 100vh;
     background-color: var(--dark-middle);
-    transition: transform 0.4s var(--animation-base);
-    transform: translateX(350px);
+    transform: translateX(var(--off-canvas-width));
     -webkit-overflow-scrolling: touch;
     border-left: var(--accent-line-width) solid var(--primary-color);
 }
 
 .off-canvas::before {
     content: '';
-    width: var(--accent-line-width);
+    width: var(--off-canvas-width);
     background-color: var(--primary-color);
     position: absolute;
     left: 0;
