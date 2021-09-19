@@ -43,7 +43,7 @@
     transition: color 0.4s var(--animation-base);
 }
 
-.canvas-close:hover {
+.canvas-close:hover, .canvas-close:focus {
     color: var(--primary-color);
 }
 
