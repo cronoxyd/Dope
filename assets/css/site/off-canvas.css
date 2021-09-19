@@ -14,6 +14,22 @@
     border-left: var(--accent-line-width) solid var(--primary-color);
 }
 
+.off-canvas::before {
+    content: '';
+    width: var(--accent-line-width);
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0%;
+    transition: height var(--accent-charm-animation-duration);
+    z-index: 999;
+}
+
+.off-canvas:hover .off-canvas::before, .off-canvas:focus .off-canvas::before {    
+    height: 100%;
+}
+
 .canvas-logo {
     position: absolute;
     top: 3rem;
