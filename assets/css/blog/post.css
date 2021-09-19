@@ -11,6 +11,17 @@
     margin-bottom: 20px;
 }
 
+/* .site-main .post .post-media {
+    position: sticky;
+    top: -13.5rem;
+    z-index: 1;
+}
+
+.site-main .post .post-media div .post-header {
+    position: sticky;
+    top: 0rem;
+} */
+
 .post-meta {
     color: var(--secondary-text-color);
     font-size: 14px;
