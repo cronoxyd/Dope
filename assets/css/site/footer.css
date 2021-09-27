@@ -4,6 +4,7 @@
     align-items: center;
     padding: 45px 60px;
     line-height: 1;
+    background-color: var(--md-shade30);
 }
 
 .site-footer .logo-image {
