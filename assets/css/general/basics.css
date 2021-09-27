@@ -1,15 +1,10 @@
 :root {
-    --primary-color: var(--ghost-accent-color, #9692af);
+    --primary-color: var(--ghost-accent-color, #9692AF);
 
-    --primary-text-color: #fff;
-    --secondary-text-color: #aaa;
+    --primary-text-color: #FFF;
+    --secondary-text-color: #AAA;
 
-    --yellow-color: #ffc475;
-    --white-color: #fff;
-    --light-gray-color: #f1f1f1;
-    --mid-gray-color: #d9d9d9;
-    --dark-gray-color: #1a1a1a;
-    --black-color: #000;
+    --white-color: #FFF;
 
     --font-heading: 'Lato', sans-serif;
     --font-base: 'Raleway', sans-serif;
@@ -17,11 +12,33 @@
     --animation-base: ease;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.2);
 
-    --dark-base: #1E1E1E;
-    --dark-middle: #252526;
-    --dark-light: #333333;
+    --md-shade30: #1E1E1E;
+    --md-shade37: #252526;
+    --md-shade51: #333333;
+    --md-shade65: #414141;
+    --md-shade90: #5A5A5A;
+    --md-shade133: #858585;
 
-    --scrollbar-thumb: #4F4F4F;
+    --md-teal: #30A695;
+    --md-dark-teal: #0D806E;
+
+    --md-lime: #30A632;
+    --md-dark-lime: #0D800E;
+
+    --md-additional21: #A65930;
+    --md-dark-additional21: #80350D;
+
+    --md-additional71: #90A630;
+    --md-dark-additional71: #6B800D;
+
+    --md-additional221: #3056A6;
+    --md-dark-additional221: #0D4380;
+
+    --md-additional271: #6D30A6;
+    --md-dark-additional271: #480D80;
+
+    --md-additional312: #A6307D;
+    --md-dark-additional312: #800D58;
 
     --intro-animation-duration: 3500ms;
 
@@ -29,7 +46,7 @@
     --accent-charm-width: 2rem;
     --accent-charm-animation-duration: 400ms;
 
-    --highlight: rgba(255, 255, 0, 0.25);
+    --highlight: rgba(144, 166, 48, 0.5);
 
     --off-canvas-width: 350px;
 }
@@ -55,7 +72,7 @@ body {
     line-height: 1.7;
     text-rendering: optimizeLegibility;
     word-break: break-word;
-    background-color: var(--dark-base);
+    background-color: var(--md-shade30);
     transition: background-color 0.3s var(--animation-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -68,17 +85,17 @@ body {
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--scrollbar-thumb) var(--dark-base);
+    scrollbar-color: var(--md-shade65) var(--md-shade30);
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--dark-base);
+    background: var(--md-shade30);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb) ;
+    background-color: var(--md-shade65) ;
     border-radius: 6px;
-    border: 3px solid var(--dark-base);
+    border: 3px solid var(--md-shade30);
 }
 
 a {

@@ -76,12 +76,12 @@
 .owl .owl-prev {
   left: 5px;
   transform: rotate(-90deg);
-  background-color: var(--dark-middle);
+  background-color: var(--md-shade37);
 }
 .owl .owl-next {
   right: 5px;
   transform: rotate(90deg);
-  background-color: var(--dark-middle);
+  background-color: var(--md-shade37);
 }
 .owl .owl-dots {
   display: flex;
@@ -99,13 +99,13 @@
   width: 20px;
 }
 .owl .owl-dot span {
-  background-color: var(--mid-gray-color);
+  background-color: var(--md-shade133);
   border-radius: 50%;
   height: 8px;
   width: 8px;
 }
 .owl .owl-dot.active span {
-  background-color: var(--black-color);
+  background-color: var(--md-shade30);
 }
 .owl.owl-loaded {
   display: block;

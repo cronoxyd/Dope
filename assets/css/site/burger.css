@@ -2,8 +2,8 @@
     position: fixed;
     flex-shrink: 0;
     padding: 0.25rem;
-    border: 2px solid var(--mid-gray-color);
-    background-color: var(--dark-light);
+    border: 2px solid var(--md-shade133);
+    background-color: var(--md-shade51);
     cursor: pointer;
     transition: color 0.4s var(--animation-base);
     right: 2rem;

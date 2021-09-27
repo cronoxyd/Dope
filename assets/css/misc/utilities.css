@@ -50,7 +50,7 @@
 
 .u-placeholder {
     position: relative;
-    background-color: var(--dark-light);
+    background-color: var(--md-shade51);
 }
 
 .u-placeholder.same-height {

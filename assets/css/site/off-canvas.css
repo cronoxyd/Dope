@@ -7,7 +7,7 @@
     padding: 7rem 2rem 2rem 2rem;
     width: var(--off-canvas-width);
     height: 100vh;
-    background-color: var(--dark-middle);
+    background-color: var(--md-shade37);
     transition: transform var(--accent-charm-animation-duration) var(--animation-base);
     transform: translateX(var(--off-canvas-width));
     -webkit-overflow-scrolling: touch;
