@@ -25,12 +25,6 @@
     --md-lime: #30A632;
     --md-dark-lime: #0D800E;
 
-    --md-additional21: #A65930;
-    --md-dark-additional21: #80350D;
-
-    --md-additional71: #90A630;
-    --md-dark-additional71: #6B800D;
-
     --md-additional221: #3056A6;
     --md-dark-additional221: #0D4380;
 
@@ -39,6 +33,8 @@
 
     --md-additional312: #A6307D;
     --md-dark-additional312: #800D58;
+
+    --yellow-color: #ffd900;
 
     --intro-animation-duration: 3500ms;
 
@@ -72,7 +68,7 @@ body {
     line-height: 1.7;
     text-rendering: optimizeLegibility;
     word-break: break-word;
-    background-color: var(--md-shade30);
+    background-color: var(--md-shade37);
     transition: background-color 0.3s var(--animation-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -85,11 +81,11 @@ body {
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--md-shade65) var(--md-shade30);
+    scrollbar-color: var(--md-shade65) var(--md-shade37);
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--md-shade30);
+    background: var(--md-shade37);
 }
 
 *::-webkit-scrollbar-thumb {
