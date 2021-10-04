@@ -7,8 +7,6 @@ $(function () {
     video();
     gallery();
     author();
-    offCanvasOpen();
-    offCanvasClose();
     offCanvas();
     facebook();
 });
