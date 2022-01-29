@@ -8,9 +8,8 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: black;
+	color: var(--primary-text-color);
 	background: none;
-	text-shadow: 0 1px white;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
 	text-align: left;
@@ -33,13 +32,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
 	text-shadow: none;
-	background: #b3d4fc;
+	background: var(--dark-middle);
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	text-shadow: none;
-	background: #b3d4fc;
+	background: var(--dark-middle);
 }
 
 @media print {
@@ -58,7 +57,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #f5f2f0;
+	background: var(--dark-middle);
 }
 
 /* Inline code */
@@ -108,8 +107,6 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
 	color: #9a6e3a;
-	/* This background color was intended by the author of this theme. */
-	background: hsla(0, 0%, 100%, .5);
 }
 
 .token.atrule,
