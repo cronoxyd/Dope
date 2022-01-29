@@ -15,22 +15,26 @@
 
 .term-name::before {
     content: "";
-    margin-right: 10px;
-    width: var(--accent-charm-width);
+    width: 0;
+    margin-right: 0px;
     height: var(--accent-line-width);
     background-color: var(--primary-color);
 
     animation: termIntroAnimation;
-    animation-duration: var(--accent-charm-animation-duration);
+    animation-duration: var(--animation-base-duration);
     animation-timing-function: var(--animation-base);
+    animation-fill-mode: forwards;
+    animation-delay: var(--term-name-strikebefore-delay);
 }
 
 @keyframes termIntroAnimation {
     from {
         width: 0;
+        margin-right: 0px;
     }
     to {
         width: var(--accent-charm-width);
+        margin-right: 10px;
     }
 }
 
