@@ -1,4 +1,5 @@
 :root {
+    /* Colors */
     --md-signature-red: #dc0000;
 
     --md-teal: #0accaf;
@@ -21,10 +22,12 @@
 
     --white-color: #FFF;
 
+    --yellow-color: rgba(255, 255, 0, 1);
+
+    --highlight: rgba(144, 166, 48, 0.5);
+
     --font-heading: 'Lato', sans-serif;
     --font-base: 'Raleway', sans-serif;
-
-    --animation-base: ease;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.2);
 
     --dark-base: var(--md-shade-30);
@@ -34,19 +37,26 @@
     --scrollbar-thumb: var(--dark-light);
     --scrollbar-border: var(--md-shade-65);
 
+    /* Animations */
+
+    --animation-base: ease;
+    --animation-base-duration: 400ms;
+
+    --pulse-loading-animation-duration: 1500ms;
+
     --intro-animation-duration: 3500ms;
 
     --accent-line-width: 2px;
     --accent-charm-width: 2rem;
-    --accent-charm-animation-duration: 400ms;
+    --accent-charm-animation-duration: var(--animation-base-duration);
 
-    --highlight: rgba(144, 166, 48, 0.5);
+    --term-name-strikebefore-delay: 500ms;
+
+    /* Misc */
 
     --off-canvas-width: 350px;
 
     --site-header-height: 7rem;
-
-    --yellow-color: rgba(255, 255, 0, 1);
 }
 
 html {
