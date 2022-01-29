@@ -1,3 +1,7 @@
+html:not(.canvas-visible) .off-canvas, html:not(.canvas-visible) .off-canvas-charm {
+    visibility: hidden;
+}
+
 .off-canvas {
     position: fixed;
     top: 0;
@@ -14,16 +18,28 @@
     /* border-left: var(--accent-line-width) solid var(--primary-color); */
 }
 
-.off-canvas::before {
+.canvas-opened .off-canvas {
+    visibility: visible;
+    transform: translateX(0) !important;
+}
+
+.off-canvas-charm {
     content: '';
     width: var(--off-canvas-width);
     background-color: var(--primary-color);
-    position: absolute;
-    left: 0;
+    position: fixed;
     top: 0;
+    left: calc(100vw - var(--off-canvas-width));
     bottom: 0;
-    transition: width var(--accent-charm-animation-duration) var(--animation-base);
+    transition: all var(--accent-charm-animation-duration) var(--animation-base);
     z-index: 9999;
+    transform: translateX(var(--off-canvas-width));
+}
+
+.canvas-opened .off-canvas-charm {
+    visibility: visible;
+    width: var(--accent-line-width);;
+    transform: translateX(0) !important;
 }
 
 .canvas-logo {
@@ -57,19 +73,6 @@
 
 .canvas-close:hover, .canvas-close:focus {
     color: var(--primary-color);
-}
-
-html:not(.canvas-visible) .off-canvas {
-    visibility: hidden;
-}
-
-.canvas-opened .off-canvas {
-    visibility: visible;
-    transform: translateX(0) !important;
-}
-
-.canvas-opened .off-canvas::before {
-    width: var(--accent-line-width);
 }
 
 .overflow-hidden {
