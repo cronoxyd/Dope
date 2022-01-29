@@ -10,6 +10,11 @@
     max-height: 30px;
 }
 
+.site-footer-spacer {
+    background-color: var(--dark-base);
+    height: 3rem;
+}
+
 .copyright,
 .footer-social {
     flex: 2;
