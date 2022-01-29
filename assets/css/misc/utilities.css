@@ -51,6 +51,23 @@
 .u-placeholder {
     position: relative;
     background-color: var(--dark-light);
+
+    animation-name: pulseLoading;
+    animation-duration: var(--pulse-loading-animation-duration);
+    animation-timing-function: var(--animation-base);
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulseLoading {
+    0% {
+        background-color: var(--dark-light);
+    }
+    50% {
+        background-color: var(--dark-middle);
+    }
+    100% {
+        background-color: var(--dark-light);
+    }
 }
 
 .u-placeholder.same-height {
