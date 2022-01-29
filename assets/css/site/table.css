@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.25rem;
+}
+
+thead tr, tbody tr:nth-child(even) {
+    background-color: var(--dark-middle);
+}
+
+tr:hover {
+    background-color: var(--dark-light) !important;
+}
