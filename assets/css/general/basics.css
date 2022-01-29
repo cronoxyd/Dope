@@ -31,7 +31,7 @@
     --dark-middle: var(--md-shade-37);
     --dark-light: var(--md-shade-51);
 
-    --scrollbar-thumb: var(--md-shade-51);
+    --scrollbar-thumb: var(--dark-light);
     --scrollbar-border: var(--md-shade-65);
 
     --intro-animation-duration: 3500ms;
