@@ -5,6 +5,7 @@
 }
 
 .site-content {
+    background-color: var(--dark-base);
     flex-grow: 1;
     padding-top: var(--site-header-height);
 }

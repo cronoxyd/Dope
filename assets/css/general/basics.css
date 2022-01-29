@@ -1,5 +1,20 @@
 :root {
-    --primary-color: var(--ghost-accent-color, #9692af);
+    --md-signature-red: #dc0000;
+
+    --md-teal: #0accaf;
+    --md-dark-teal: #0accaf;
+
+    --md-lime: #30a632;
+    --md-dark-lime: #35800d;
+
+    --md-shade-30: #1e1e1e;
+    --md-shade-37: #252525;
+    --md-shade-51: #333333;
+    --md-shade-65: #414141;
+    --md-shade-90: #5a5a5a;
+    --md-shade-133: #858585;
+
+    --primary-color: var(--ghost-accent-color, --md-signature-red);
 
     --primary-text-color: #fff;
     --secondary-text-color: #aaa;
@@ -17,11 +32,12 @@
     --animation-base: ease;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.2);
 
-    --dark-base: #1E1E1E;
-    --dark-middle: #252526;
-    --dark-light: #333333;
+    --dark-base: var(--md-shade-30);
+    --dark-middle: var(--md-shade-37);
+    --dark-light: var(--md-shade-51);
 
-    --scrollbar-thumb: #4F4F4F;
+    --scrollbar-thumb: var(--md-shade-51);
+    --scrollbar-border: var(--md-shade-65);
 
     --intro-animation-duration: 3500ms;
 
@@ -57,7 +73,7 @@ body {
     line-height: 1.7;
     text-rendering: optimizeLegibility;
     word-break: break-word;
-    background-color: var(--dark-base);
+    background-color: var(--dark-middle);
     transition: background-color 0.3s var(--animation-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -65,7 +81,7 @@ body {
 }
 
 *::-webkit-scrollbar {
-    width: 11px;
+    width: 0.75rem;
 }
 
 * {
@@ -75,12 +91,12 @@ body {
 
 *::-webkit-scrollbar-track {
     background: var(--dark-base);
+    border-left: 1px solid var(--scrollbar-border);
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-thumb) ;
-    border-radius: 6px;
-    border: 3px solid var(--dark-base);
+    
 }
 
 a {
