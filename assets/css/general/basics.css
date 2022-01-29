@@ -16,15 +16,10 @@
 
     --primary-color: var(--ghost-accent-color, --md-signature-red);
 
-    --primary-text-color: #fff;
-    --secondary-text-color: #aaa;
+    --primary-text-color: #FFF;
+    --secondary-text-color: #AAA;
 
-    --yellow-color: #ffc475;
-    --white-color: #fff;
-    --light-gray-color: #f1f1f1;
-    --mid-gray-color: #d9d9d9;
-    --dark-gray-color: #1a1a1a;
-    --black-color: #000;
+    --white-color: #FFF;
 
     --font-heading: 'Lato', sans-serif;
     --font-base: 'Raleway', sans-serif;
@@ -45,7 +40,7 @@
     --accent-charm-width: 2rem;
     --accent-charm-animation-duration: 400ms;
 
-    --highlight: rgba(255, 255, 0, 0.25);
+    --highlight: rgba(144, 166, 48, 0.5);
 
     --off-canvas-width: 350px;
 
@@ -86,7 +81,7 @@ body {
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--scrollbar-thumb) var(--dark-base);
+    scrollbar-color: var(--md-shade65) var(--md-shade37);
 }
 
 *::-webkit-scrollbar-track {

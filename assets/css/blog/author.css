@@ -52,7 +52,7 @@
     padding: 8px 0;
     font-size: 12px;
     line-height: 1;
-    background-color: var(--dark-gray-color);
+    background-color: var(--md-shade37);
     border-radius: 3px;
     opacity: 0;
     transition: opacity 0.2s var(--animation-base), transform 0.2s var(--animation-base);
@@ -65,7 +65,7 @@
     position: absolute;
     top: -12px;
     left: 7px;
-    color: var(--dark-gray-color);
+    color: var(--md-shade37);
     font-family: IVEEL, sans-serif;
     font-size: 19px;
 }
